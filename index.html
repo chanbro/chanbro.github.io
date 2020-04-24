@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Personal Website - Chaney Brown</title>
+    <title>Chaney Brown</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
@@ -10,155 +10,37 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <!-- Style Sheets -->
-    <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
-    <!-- Scripts -->
-    <!--[if lt IE 9] -->
-    <script src="js/html5shiv.js"></script>
-    <!--[endif]-->
-
+<!--    Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--    Custom CSS-->
+    <link rel="stylesheet" href="css/style.css">
+<!--    Font Awesome-->
 
 </head>
 
 <body>
 
-<div class="container">
-
-    <header class="slide">     <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
-        <p id="navToggle" class="menu slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
-            MENU
-        </p>
-        <h1>CHANEY BROWN</h1>
-    </header>
-
-    <nav class="slide">
-        <ul>
-            <li><a href="../trunk.html" class="active">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PROJECTS</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav>
-
-<!--    <div class="swiper-container main-slider loading">-->
-<!--        <div class="swiper-wrapper">-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Shaun Matthews</p>-->
-<!--                    <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Alexis Berry</p>-->
-<!--                    <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Billie	Pierce</p>-->
-<!--                    <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Trevor	Copeland</p>-->
-<!--                    <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Bernadette	Newman</p>-->
-<!--                    <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        &lt;!&ndash; If we need navigation buttons &ndash;&gt;-->
-<!--        <div class="swiper-button-prev swiper-button-white"></div>-->
-<!--        <div class="swiper-button-next swiper-button-white"></div>-->
-<!--    </div>-->
-
-<!--    &lt;!&ndash; Thumbnail navigation &ndash;&gt;-->
-<!--    <div class="swiper-container nav-slider loading">-->
-<!--        <div class="swiper-wrapper" role="navigation">-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLbVhsNzdIYmlfN1E" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Shaun Matthews</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLWTdaX3J5b1VueDg" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Alexis Berry</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLRml1b3B6eXVqQ2s" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Billie	Pierce</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLVUpEems2ZXpHYVk" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Trevor	Copeland</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="swiper-slide">-->
-<!--                <figure class="slide-bgimg" style="background-image:url(https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM)">-->
-<!--                    <img src="https://drive.google.com/uc?export=view&id=0B_koKn2rKOkLNXBIcEdOUFVIWmM" class="entity-img" />-->
-<!--                </figure>-->
-<!--                <div class="content">-->
-<!--                    <p class="title">Bernadette	Newman</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!--    <div class="content slide">     &lt;!&ndash;	Add "slideRight" class to items that move right when viewing Nav Drawer  &ndash;&gt;-->
-<!--        <div class="responsive">-->
-<!--            <section class="header-section">-->
-<!--                <p class="placefiller">HEADER</p>-->
-<!--            </section>-->
-<!--            <section class="body-section">-->
-<!--                <p class="placefiller">BODY</p>-->
-<!--            </section>-->
-<!--            <section class="footer-section">-->
-<!--                <p class="placefiller">FOOTER</p>-->
-<!--            </section>-->
-<!--        </div>-->
-<!--    </div>-->
-
+<!--Desktop Side Navbar-->
+<div class="nav-container my-auto">
+<ul class="nav flex-column desktop-nav">
+    <li class="nav-item">
+        <a class="nav-link" href="#">Landing</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+    </li>
+</ul>
 </div>
 
-
+<!--Bootstrap Scripts-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
 

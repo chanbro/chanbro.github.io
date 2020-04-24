@@ -1,0 +1,7 @@
+.nav-container {
+    position: fixed;
+    background-color: dimgray;
+    color: white;
+    height: 100vh;
+    width: 10vh
+}
